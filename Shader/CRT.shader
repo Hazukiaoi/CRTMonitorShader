@@ -48,6 +48,7 @@
 			float _ScanLineImageJitter;
 			float _ScanLineImageJitterRange;
 
+			//SDF Function From : https://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm
 			float sdLine(in float2 p, in float2 a, in float2 b)
 			{
 				float2 pa = p - a, ba = b - a;
